@@ -25,7 +25,7 @@ class Player():
 class TheRock(Player):
     def move(self):
         throw = moves[0]
-    self.step = self.step + 1
+        self.step = self.step + 1
 
 
 class RandomPlayer(Player):
